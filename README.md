@@ -1,2 +1,3 @@
 # stepik---auto-tests-course
-https://stepik.org/lesson/187065/step/4
+This is project for stepik
+https://stepik.org/course/575
