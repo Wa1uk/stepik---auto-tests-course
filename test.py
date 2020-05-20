@@ -92,9 +92,17 @@ def explicit_wait2():
     time.sleep(5)
 
 
+
 if __name__ == '__main__':
     try:
-        get_attribute()
+        s = 'My Na1me is Julia'
+
+        if 'Name' in s:
+            print('Substring found')
+
+        index = s.find('Name')
+        if index != -1:
+            print(f'Substring found at index {index}')
     finally:
         browser.close()
         browser.quit()
